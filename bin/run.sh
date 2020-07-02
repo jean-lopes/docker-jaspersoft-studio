@@ -27,5 +27,6 @@ docker run --rm \
        -e TARGET_UID=$TARGET_UID \
        -e TARGET_GID=$TARGET_GID \
        -v $HOME:/home/$DOCKER_USER/home_on_host \
+       --network="host" \
        --name $DOCKER_CONTAINER \
        accso/docker-jaspersoft-studio:latest 

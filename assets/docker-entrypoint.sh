@@ -19,7 +19,7 @@ echo "export QT_GRAPHICSSYSTEM=opengl"  >> $SCRIPT
 echo "cd /opt" >> $SCRIPT
 echo "echo Starting Jaspersoft-Studio..." >> $SCRIPT
 # Siehe https://community.jaspersoft.com/wiki/tibco-jaspersoft-studio-how-configure-non-default-path-jaspersoft-studio-workspace
-echo "/opt/tibco/TIB_js-studiocomm_6.5.1.final/runjss.sh -data ${USER_HOME}/home_on_host/JaspersoftWorkspace" >> $SCRIPT
+echo "/opt/tibco/TIB_js-studiocomm_6.13.0/runjss.sh -data ${USER_HOME}/home_on_host/JaspersoftWorkspace" >> $SCRIPT
 chmod +x $SCRIPT
 
 #dpkg -L jaspersoftstudio
